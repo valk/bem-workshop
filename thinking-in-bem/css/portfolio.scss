@@ -1,29 +1,13 @@
 @import "common";
 
-.c-block {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    background: lime;
-
-    &__element {
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background: orange;
-    }
-}
-
-.c-portfolio { background: #fff; width: 200px; height: 21rem; margin: 0 auto; font-family: 'Lato', Calibri, Arial, sans-serif; font-weight: 300; word-spacing: -0.03rem;
+.c-portfolio { background: #fff; width: 12rem; height: 21rem; margin: 0 auto; font-family: 'Lato', Calibri, Arial, sans-serif; font-weight: 300; word-spacing: -0.03rem;
   &__head { min-height: 4rem; background: #ddd; padding: 0.5rem; }
   &__body { min-height: 18rem; background: #fff; }
 
   &__controls { @extend .portfolio-font; }
   &__add-symbol { clear: both; overflow: hidden; }
   &__add-select { @extend .block-left; margin: 0.5rem 0 0; }
-  &__add-button { @extend .block-left; margin: 0.5rem 0 0; background: #ff7200; width: 27px; height: 1.18rem; line-height: 1.18rem; text-align: center; padding: 0.08rem; color: #fff; font-weight: bold; cursor: pointer; }
+  &__add-button { @extend .block-left; margin: 0.5rem 0 0; background: #ff7200; width: 2rem; height: 1.18rem; line-height: 1.18rem; text-align: center; padding: 0.08rem; color: #fff; font-weight: bold; cursor: pointer; }
   &__select { border-bottom: 1px solid #888; padding: 0 0 3px; cursor: pointer; }
   &__bottom { clear: both; }
   &__rename { @extend .block-left; cursor: pointer; }
@@ -34,7 +18,7 @@
 
 .c-portfolio-item { @extend .portfolio-font; overflow: auto; border-bottom: 1px solid #dfdfdf; padding: 0.5rem; cursor: pointer;
   &__first { @extend .block-left; }
-  &__middle { @extend .block-left; color: #37AE65; margin: 0.5rem; width: 32px; text-align: right; }
+  &__middle { @extend .block-left; color: #37AE65; margin: 0.5rem; width: 2.5rem; text-align: right; }
   &__last { @extend .block-right; }
   &__stock-name { font-weight: bold; color: #114C9A; }
   &__stock-descr { }
